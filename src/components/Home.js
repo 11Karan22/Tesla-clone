@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Section from './Section'
 function Home() {
+    //passing data via props!
+    
     return (
         <Container>
            
@@ -33,6 +35,7 @@ function Home() {
                 LeftBtnText="Custom Oreder"
                 RightBtnText="Existing iventory"
             />
+            
              <Section 
                  title="Lowest Cost Solar Panel"
                 description="Money-back gaurantee"
